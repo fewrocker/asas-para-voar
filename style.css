@@ -2,10 +2,40 @@
 /*#F7C7DA*/
 /*#FBE7ED*/
 
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-frida {
+  background-color: #FBE7ED;
+  color: black;
+}
+
+.btn-frida:hover {
+  background-color: #F7C7DA;
+  color: black;
+}
+
+.palestrante {
+  max-width: 320px;
+  height: 300px;
+  margin: 0 30px;
+}
+
+.palestrante-box {
+  padding: 60px;
+  height: 500px;
+}
+
+.palestrante-pic {
+  border-radius: 50%;
+  width: 160px;
+  margin: 0 auto;
+}
+
 #banner {
   height: 100vh;
 }
-
 .color-1 {
   color: #ED5356;
 }
@@ -14,6 +44,28 @@
 }
 .color-3 {
   color: #FBE7ED;
+}
+
+.bg-color-1 {
+  background-color: #ED5356;
+}
+.bg-color-2 {
+  background-color: #F7C7DA;
+}
+.bg-color-3 {
+  background-color: #FBE7ED;
+}
+
+.fw-light {
+  font-weight: light;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
 }
 
 .request-success {
