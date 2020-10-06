@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
@@ -24,7 +25,7 @@
       </div>
     </div>
 
-    <div class="section-container flex start">
+    <div class="section-container flex center" style="padding-top: 0; padding-bottom: 0;">
       <div class="f-60" style="padding: 0 200px 0 20px;">
         <p class="fs-36 gs-110 mb-1">WEBINAR</p>
         <p class="fs-36 gs-50 mb-5">COMO MELHORAR OS RESULTADOS DO SEU NEGÓCIO</p>
@@ -32,21 +33,83 @@
         <p>Você encontrou uma oportunidade única para potencializar sua estratégia digital, conquistar mais clientes, aumentar sua taxa de retenção e ainda ajudar uma causa!</p>
 
         <p>Profissionais da maior empresa de marketing de conteúdo da América se uniram para arrecadar doações e compartilhar conhecimento.</p>
+
+        <div style="height: 40px;"></div>
+
+        <p class="fs-16 gs-90">Terça-feira (20/10 às 19h)</p>
+        <p class="fs-20 bold gs-50">Melhore sua presença digital: dicas práticas para atrair clientes e gerir o seu negócio</p>
+
+        <div style="height: 40px;"></div>
+
+        <p class="fs-16 gs-90">Quarta-feira (21/10 às 19h)</p>
+        <p class="fs-20 bold gs-50">Retenção de clientes: ações práticas para melhorar o atendimento e o relacionamento com sua base de clientes</p>
+
+        <div style="height: 40px;"></div>
+
+        <p class="fs-16 gs-90">Quinta-feira (22/10 às 19h)</p>
+        <p class="fs-20 bold gs-50">Como pequenas mudanças podem transformar os resultados do seu blog</p>
       </div>
       <div class="f-40">
         <img src="images/banner-webinar.jpg" style="height: 525px; width: 626px;" alt="">
       </div>
     </div>
 
+    <div class="section-container flex center">
+      <div class="f-60" style="padding: 0 200px 0 20px;">
+        <h2 class="color-1 mb-5 bold">Como faço para participar?</h2>
 
-    <div id="footer" class="text-center">
-      <ul class="list-inline">
-        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-      </ul>
-      <p>Esta é uma Landing Page feita pela Rock Content</p>
+        <p class="mb-4">Para participar deste evento, basta você doar um valor mínimo de R$15 na campanha de financiamento coletivo que estamos fazendo para a <a href="http://crea.org.mx/" target="_blank">CREA</a>, instituição mexicana que apoia o empoderamento feminino.</p>
+
+        <p class="gs-50 mb-5">insira seu e-mail na caixa ao lado e selecione o webinar que deseja participar. Você pode ler descrições de cada webinar abaixo. Ao clicar em "Realizar inscrição", você será redirecionado(a) para a paginação de doações e deverá doar um valor de pelo menos R$15. Enviaremos os convites para os webinars ao longo dos próximos dias.</p>
+
+        <p class="mb-4">Essa ação faz parte da Semana do Voluntariado do <a href="http://org.rockcontent.com/" target="_blank">Rock.org</a>. Ao todo, serão 4 ONG´S beneficiadas no Brasil, México, EUA e Canadá.</p>
+
+        <p class="mb-4">Nossa equipe decidiu apoiar a causa do empoderamento feminino e você também pode ajudar!</p>
+
+        <div style="height: 20px;"></div>
+
+        <p class="mb-4 bold fs-20">Não quer participar do evento, mas quer doar?</p>
+
+        <p class="btn btn-danger w-100">Quero ajudar a empoderar mulheres</p>
+      </div>
+      <div class="f-40">
+        <div class="donation-box">
+          <p class="fs-24 bold">Quero participar!</p>
+          <div style="height: 40px;"></div>
+
+          <input class="input-email input w-100 mb-5" type="text" placeholder="Seu email aqui...">
+          <select class="select w-100 mb-5">
+            <option class="select-option" value="Melhore sua presença digital: dicas práticas para atrair clientes e gerir o seu negócio">Melhore sua presença digital: dicas práticas para atrair clientes e gerir o seu negócio</option>
+            <option class="select-option" value="Retenção de clientes: ações práticas para melhorar o atendimento e o relacionamento com sua base de clientes">Retenção de clientes: ações práticas para melhorar o atendimento e o relacionamento com sua base de clientes</option>
+            <option class="select-option" value="Como pequenas mudanças podem transformar os resultados do seu blog">Como pequenas mudanças podem transformar os resultados do seu blog</option>
+          </select>
+
+          <div style="height: 30px;"></div>
+
+          <p class="btn btn-danger w-100 register-button mb-5">Realizar inscrição e ir para página de doação</p>
+
+          <div class="success-text request-success flex center p-5" style="display: none;">
+            <i class="fa fa-check fs-36"></i>
+            <p>Seu e-mail foi registrado. Favor realizar a doação para receber o convite para o evento escolhido.</p>
+          </div>
+
+          <div class="danger-text request-failure flex center p-5" style="display: none;">
+            <i class="fa fa-check fs-36"></i>
+            <p>Erro ao registrar seu e-mail. Favor entrar em contato com nossa equipe no telefone: xxxxxxxx</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 70px;"></div>
+
+    <div class="section-container">
+      <img src="images/footer.png" class="w-100" alt="">
+    </div>
+
+
+    <div id="footer" class="text-center flex center around">
+      <p class="m-0" style="margin: 0;">Esta é uma Landing Page feita pela Rock Content</p>
     </div>
   </body>
 </html>
