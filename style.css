@@ -2,13 +2,13 @@
 /*#F7C7DA*/
 /*#FBE7ED*/
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1000px) {
   .mobile-page {
     display: none;
   }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1000px) {
   .desktop-page {
     display: none;
   }
@@ -290,7 +290,7 @@ i:hover {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .fs-10 {
     font-size: 8px;
   }
@@ -335,6 +335,11 @@ i:hover {
   #footer {
     height: 10vh;
     background-color: rgb(70,70,70);
+  }
+
+  .logo-img {
+    height: 10px;
+    width: 10px;
   }
 }
 
