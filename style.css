@@ -2,7 +2,7 @@
 /*#F7C7DA*/
 /*#FBE7ED*/
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1001px) {
   .mobile-page {
     display: none;
   }
@@ -40,9 +40,9 @@ html {
 }
 
 .palestrante {
-  max-width: 320px;
   height: 300px;
   margin: 0 30px;
+  min-width: 120px;
 }
 
 .palestrante-box {
