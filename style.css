@@ -14,8 +14,6 @@
   }
 }
 
-
-
 html {
   scroll-behavior: smooth;
 }
@@ -290,7 +288,7 @@ i:hover {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .fs-10 {
     font-size: 8px;
   }
