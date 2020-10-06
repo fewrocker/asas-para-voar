@@ -295,6 +295,14 @@ i:hover {
     font-size: 40px;
   }
 
+  .input {
+    border: 0px solid white;
+    height: 80px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-size: 40px;
+  }
+
   .btn-participar {
     padding: 20px 0;
     font-size: 40px;
