@@ -16,6 +16,17 @@ html {
   color: black;
 }
 
+.btn-participar{
+  background-color: #ed5356;
+  color: white;
+}
+
+.btn-participar:hover {
+  background-color: #c9302c;
+  border-color: #ac2925;
+  color: white;
+}
+
 .palestrante {
   max-width: 320px;
   height: 300px;
