@@ -1,11 +1,13 @@
-@import 'sass/page';
-
 /*#ED5356*/
 /*#F7C7DA*/
 /*#FBE7ED*/
 
 #banner {
   height: 100vh;
+}
+
+.section-container {
+  padding: 60px 120px;
 }
 
 .text-white {
