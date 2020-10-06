@@ -2,6 +2,20 @@
 /*#F7C7DA*/
 /*#FBE7ED*/
 
+@media screen and (min-width: 1300px) {
+  .mobile-page {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .desktop-page {
+    display: none;
+  }
+}
+
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -40,7 +54,7 @@ html {
 
 .palestrante-pic {
   border-radius: 50%;
-  width: 160px;
+  width: 120px;
   margin: 0 auto;
 }
 
@@ -133,6 +147,16 @@ html {
   color: white;
 }
 
+.phone-banner-left {
+  height: 30vh;
+  background: white;
+}
+
+.phone-banner-right {
+  height: 70vh;
+  background: #ED5356;
+}
+
 .banner-left {
   background: white;
 }
@@ -184,12 +208,6 @@ i:hover {
 }
 
 
-
-
-
-
-
-
 .fullscreen {
   width: 100vw !important;
   height: 100vh !important;
@@ -232,6 +250,92 @@ i:hover {
 
 .fs-36 {
   font-size: 36px;
+}
+
+@media screen and (max-width: 1300px) {
+  .fs-10 {
+    font-size: 8px;
+  }
+
+  .fs-12 {
+    font-size: 10px;
+  }
+
+  .fs-14 {
+    font-size: 12px;
+  }
+
+  .fs-16 {
+    font-size: 14px;
+  }
+
+  .fs-18 {
+    font-size: 16px;
+  }
+
+  .fs-20 {
+    font-size: 18px;
+  }
+
+  .fs-24 {
+    font-size: 20px;
+  }
+
+  .fs-30 {
+    font-size: 24px;
+  }
+
+  .fs-36 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .fs-10 {
+    font-size: 8px;
+  }
+
+  .fs-12 {
+    font-size: 14px;
+  }
+
+  .fs-14 {
+    font-size: 16px;
+  }
+
+  .fs-16 {
+    font-size: 20px;
+  }
+
+  .fs-18 {
+    font-size: 26px;
+  }
+
+  .fs-20 {
+    font-size: 32px;
+  }
+
+  .fs-24 {
+    font-size: 60px;
+  }
+
+  .fs-30 {
+    font-size: 40px;
+  }
+
+  .fs-36 {
+    font-size: 50px;
+  }
+
+  .palestrante-box {
+    padding: 40px;
+    height: 700px;
+  }
+
+  #footer {
+    height: 10vh;
+    background-color: rgb(70,70,70);
+  }
 }
 
 .spacer-s {
